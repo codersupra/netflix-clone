@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffcf9;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+    
+}
+.logo {
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+}
+
+.logo span{
+    font-size: 12px;
+    position: relative;
+    bottom: 19px;
+    right: 6px;
+
+}
+
+.header {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.list ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 34px;
+}
+
+.list li {
+    list-style: none;
+}
+
+.list li a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.list ul.dropdown li{
+    /* text-align: center; */
+    display: block;
+    margin: 2px 0px;
+    padding: 10px;
+    position: relative;
+    top: 25px;
+    right: 45px;
+    /* color: wheat; */
+    /* background: rgb(26, 23, 22); */
+}
+/* .dropdown{
+    border: 2px solid red;
+    height: fit-content;
+    position: relative;
+    right: 20px;
+} */
+ul li ul.dropdown{
+    /* background: blanchedalmond; */
+    /* color: black; */
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown{
+    /* background-color: aquamarine; */
+    display: block;
+}
+
+/* .list li a:hover {
+    position: relative;
+    display: block;
+    font-size: .875rem;
+    line-height: 1.3;
+    transition: opacity .4s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+} */
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 34px;
+}
+
+.projectbtn {
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.arrowbtn {
+    background-color: black;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 9px;
+    right: 4.5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .scroll {
+    white-space: nowrap;
+    margin: 0 2em;
+  }
+  
+  .scroll div {
+    display: flex;
+    gap: 2em;
+  }
+  
+  .scroll p {
+    font-size: 18em;
+    /* color: white; */
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 10px;
+  }
+  
+  .RightToLeft {
+    animation: RightToLeft 25s 1s infinite linear;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  }
+  
+  @keyframes  RightToLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+ img{
+    width: 20px;
+    position: relative;
+    right: 20px;
+}
+
+  .des1{
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 37rem;
+    position: relative;
+    bottom: 9em;
+    margin-left: 20px;
+    height: 12em;
+  }
+  .des1 p{
+    font-size: 25px;
+  }
+
+  .para a{
+    color: black;
+    text-decoration: underline;
+    position: relative;
+    bottom: 230px;
+    margin-left: 1.5rem;
+    font-size: 12px;
+  }
+
+  .des2{
+    margin-top: 12rem;
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: fit-content;
+    position: relative;
+    bottom: 9em;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 12em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .des2 p{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #cookie-consent {
+    position: fixed;
+    bottom: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 34rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+    z-index: 999;
+    right: 37px;
+    border-radius: 35px;
+  }
+  
+  #cookie-consent p {
+    margin: 0; /* Remove default margin from paragraph */
+    font-size: 14px; /* Set font size */
+    color: #fdfdfd; /* Text color */
+  }
+  
+  #cookie-consent a {
+    color: #ffffff; /* Link color (blue) */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  #cookie-consent a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  #accept-cookies {
+    background-color: #e3e3e3;
+    color: #000000;
+    border: none;
+    padding: 11px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 125px;
+    border-radius: 18px;
+  }
+  
+  #accept-cookies:hover {
+    background-color: #e3e3e3; /* Change button color on hover (darker blue) */
+  }
+
+  .ar{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 9px 10px;
+    position: relative;
+    top: 0px;
+  }
+  
